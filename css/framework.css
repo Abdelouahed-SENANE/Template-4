@@ -1,0 +1,336 @@
+/* start box */
+.d-flex{
+   display: flex;
+}
+.d-grid{
+   display: grid;
+}
+.gab-10{
+   gap: 10px;
+}
+.gab-20{
+   gap: 20px;
+}
+@media (max-width:767px){
+   .block-mobile{
+      display: block;
+   }
+   .hide-mobile{
+      display: none;
+   }
+}
+.space-between{
+   justify-content: space-between;
+}
+.space-around{
+   justify-content: space-around;
+}
+.f-wrap{
+   flex-wrap: wrap;
+}
+.align-c{
+   align-items: center;
+}
+.w-full{
+   flex: 1;
+}
+.wd-64{
+   width: 64px;
+}
+.wd-full{
+   width: 100%;
+}
+.h-full{
+   height: 100%;
+}
+.h-60{
+   height: 64px;
+}
+.d-block{
+   display: block;
+}
+/* end box */
+/* start position */
+.relative{
+   position: relative;
+}
+/* end position */
+/* start  padding + margin */
+.p-0{
+   padding: 0;
+}
+.p-5{
+   padding: 5px;
+
+}
+.p-10{
+   padding: 10px;
+
+}
+.pt-15{
+   padding-top: 15px;
+
+}
+.pt-20{
+   padding-top: 20px;
+
+}
+.pb-10{
+   padding-bottom: 10px;
+
+   
+}
+.p-tb{
+   padding: 15px 0;
+}
+.pb-15{
+   padding-bottom: 15px;
+
+}
+.pb-20{
+   padding-bottom: 20px;
+
+}
+.pb-15{
+   padding-bottom: 15px;
+
+}
+.p-15{
+   padding: 15px;
+}
+.p-20{
+   padding: 20px;
+}
+.p-b-t-5{
+   padding: 5px 0;
+}
+.p-l-20{
+   padding-left: 20px;
+}
+.p-l-r-10{
+   padding: 0 10px;
+}
+.m-20{
+   margin: 20px;
+}
+.m-15{
+   margin: 20px;
+}
+.m-0{
+   margin: 0;
+}
+.ml-20{
+   margin-left: 20px;
+}
+.mr-5{
+   margin-right: 5px;
+}
+.mr-10{
+   margin-right: 10px;
+}
+.mr-15{
+   margin-right: 15px;
+}
+.mr-20{
+   margin-right: 20px;
+}
+.mr-25{
+   margin-right: 25px;
+}
+.ml-15{
+   margin-left: 15px;
+}
+.mb-0{
+   margin-bottom: 0;
+}
+.mb-5{
+   margin-bottom: 5px;
+}
+.mb-10{
+   margin-bottom: 10px;
+}
+.mb-15{
+   margin-bottom: 15px;
+}
+.mb-20{
+   margin-bottom: 20px;
+}
+.mt-0{
+   margin-top: 0;
+}
+.mt-5{
+   margin-top: 5px;
+}
+.mt-10{
+   margin-top: 10px;
+}
+.mt-15{
+   margin-top: 15px;
+}
+.mt-20{
+   margin-top: 20px;
+}
+.mt-25{
+   margin-top: 20px;
+}
+/* end  padding + margin */
+/* start background color */
+.bg-fff{
+   background-color: #fff;
+}
+.c-black{
+   color: #000;
+}
+.bg-eee{
+   background-color: #eee;
+}
+.c-grey{
+   color: #888;
+}
+.c-888{
+   color: #888;
+}
+.bg-888{
+   background-color: #888;
+}
+.c-fff{
+   color: #fff;
+}
+.c-orange{
+   color: #f59e0b;
+}
+.bg-blue{
+   background-color: #0075ff;
+}
+.c-blue {
+   color: #0075ff;
+}
+.c-blue-t {
+   color: #1da1f2;
+}
+.bg-blue-t {
+   background-color: #1da1f2;
+}
+.bg-orange{
+   background-color: #f59e0b;
+}
+.bg-blue-g{
+   background-color: #0077b5;
+}
+.c-blue-g{
+   color: #0077b5;
+}
+
+.bg-green{
+   background-color: #22c55e;
+}
+.c-green{
+   color: #22c55e;
+}
+.bg-red{
+   background-color: #e83840;
+}
+.c-red{
+   color: #e83840;
+}
+.opacity{
+   opacity: 0.4;
+}
+/* end background color */
+/* start font */
+.txt-d-t{
+   text-decoration: line-through;
+}
+.text-c{
+   text-align: center;
+}
+.text-r{
+   text-align: right;
+}
+
+.fw-500{
+   font-weight: 500;
+}
+.fw-600{
+   font-weight: bold;
+}
+.fw-800{
+   font-weight: 800;
+}
+.fs-10{
+   font-size: 10px;
+}
+.fs-12{
+   font-size: 12px;
+}
+.fs-14{
+   font-size: 14px;
+}
+.fs-15{
+   font-size: 15px;
+}
+.fs-16{
+   font-size: 16px;
+}
+.fs-20{
+   font-size: 20px;
+}
+.fs-25{
+   font-size: 25px;
+}
+.fs-40{
+   font-size: 40px;
+}
+.fs-13{
+   font-size: 13px;
+}
+@media (max-width:767px){
+   .txt-c-mobile{
+      text-align: center;
+   }
+}
+/* end font */
+/* start border */
+.rad-6{
+   border-radius: 6px;
+}
+.rad-10{
+   border-radius: 10px;
+}
+.rad-half{
+   border-radius: 50%;
+}
+.b-none{
+   border: none;
+}
+.b-grey{
+   border: 1px solid #ccc;
+}
+.b-b-grey{
+   border-bottom: 1px solid #ccc;
+}
+.b-b-ddd{
+   border-bottom: 1px solid #ddd;
+}
+/* start border */
+/* Start components */
+.between-flex{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.center-flex{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.w-fit{
+   width: fit-content;
+}
+.btn-shape{
+   padding: 4px 10px;
+   border-radius: 6px;
+   
+   
+}
+/* end components */
